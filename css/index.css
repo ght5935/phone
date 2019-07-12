@@ -1,0 +1,81 @@
+
+
+
+html,body {
+	width: 100%;
+	height: 100%;
+	background:#f0f0f0;
+	color:#505050;
+	font-size:62.5%;
+	-webkit-user-select:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color:transparent;
+	-webkit-user-select:none;
+	-webkit-touch-callout:none;
+	-webkit-touch-callout:none;
+	}  
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;} 
+@media only screen and (min-width: 320px){
+  html {
+    font-size: 62.5% !important;
+  }
+}
+@media only screen and (min-width: 640px){
+  html {
+    font-size: 125% !important;
+  }
+}
+@media only screen and (min-width: 750px){
+  html {
+    font-size: 150% !important;
+  }
+}
+@media only screen and (min-width: 1242px){
+  html {
+    font-size: 187.5% !important;
+  }
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bac.png);
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+.zhao {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 1;
+}
+.textDesc {
+	width: 100%;
+	height: 6vh;
+	text-align: center;
+	margin-top: 30vh;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+#apple{
+	margin: 10px auto;
+	width: 65vw;
+	height: 12vh;
+	background: url(../img/apple.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+#android{
+	margin: 10px auto;
+	width: 65vw;
+	height: 12vh;
+	background: url(../img/android.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
